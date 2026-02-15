@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Entry">
+      <UniqueIdentifier>{58F93C80-C1D3-4811-8AF8-E2659582A812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS-ImGui">
+      <UniqueIdentifier>{127B5D98-822D-4C53-A939-FF45C9E7DE6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS-ImGui\imgui">
+      <UniqueIdentifier>{DF7F829D-169F-4B5F-9463-9E5D8098946E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{581B0781-4DFA-44EE-82DB-3D73C5B0B274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{28CDFA8E-A00F-4228-9148-9D9309CEC7B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\View">
+      <UniqueIdentifier>{3E11C80E-9494-4E3C-AB3D-8A1B0C47E278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Data">
+      <UniqueIdentifier>{5CC12C80-CA85-4709-AC6F-F225974FA53A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Offsets">
+      <UniqueIdentifier>{2DB8BD13-C227-4B31-B839-9AA72751AEB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\MenuConfig">
+      <UniqueIdentifier>{F9497CB3-B678-4AC4-BBE4-C59A3E2A1804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Radar">
+      <UniqueIdentifier>{0254EEAA-8E1E-413F-89B6-C3E46635F6F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\ConfigSaver">
+      <UniqueIdentifier>{F9256E9F-772B-4A63-9510-26CF5945650C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OS-ImGui\imgui\imconfig.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui_impl_dx11.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui_impl_win32.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui_internal.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imstb_rectpack.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imstb_textedit.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imstb_truetype.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_Base.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_Exception.hpp">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_External.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_Struct.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ProcessManager.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="View.hpp">
+      <Filter>Cheats\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Bunnyhop.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Cheats\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuConfig.hpp">
+      <Filter>Cheats\MenuConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar\Radar.h">
+      <Filter>Cheats\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerBot.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ConfigMenu.hpp">
+      <Filter>Utils\ConfigSaver</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ConfigSaver.hpp">
+      <Filter>Utils\ConfigSaver</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Format.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiFlashbang.hpp">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OS-ImGui\imgui\imgui.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_demo.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_draw.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_impl_dx11.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_impl_win32.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_tables.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_widgets.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\OS-ImGui.cpp">
+      <Filter>OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\OS-ImGui_Base.cpp">
+      <Filter>OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\OS-ImGui_External.cpp">
+      <Filter>OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Cheats\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Cheats\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Cheats\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Cheats\Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\MemorySearch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar\Radar.cpp">
+      <Filter>Cheats\Radar</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerBot.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ConfigMenu.cpp">
+      <Filter>Utils\ConfigSaver</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ConfigSaver.cpp">
+      <Filter>Utils\ConfigSaver</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVars.cpp">
+      <Filter>Cheats\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
